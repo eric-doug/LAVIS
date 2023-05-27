@@ -47,7 +47,8 @@ text_processor = BlipCaptionProcessor()
 
 # files to process
 # file_root = "/export/home/.cache/lavis/coco/images/val2014"
-file_root = "/export/home/.cache/lavis/coco/images/train2014"
+#file_root = "/export/home/.cache/lavis/coco/images/train2014"
+file_root = "/home/flyingbird/workspace/datas/coco2014/train2014"
 filepaths = os.listdir(file_root)
 
 print(len(filepaths))

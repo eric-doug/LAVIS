@@ -11,6 +11,7 @@ from app import image_text_match as itm
 from app import text_localization as tl
 from app import multimodal_search as ms
 from app import classification as cl
+from app import products_search as ps
 
 
 if __name__ == "__main__":
@@ -22,4 +23,5 @@ if __name__ == "__main__":
     app.add_page("Image Text Matching", itm.app)
     app.add_page("Text Localization", tl.app)
     app.add_page("Classification", cl.app)
+    app.add_page("Products Search", ps.app)
     app.run()
